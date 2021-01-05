@@ -15,7 +15,7 @@ body {
 }
 
 .container-root {
-  background-color: black;
+  background-image: url("../images/baner01.PNG");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ body {
 }
 
 .container-btn {
-  width: 300px;
+  width: 400px;
   height: 30px;
   display: block;
   margin-left: auto;
