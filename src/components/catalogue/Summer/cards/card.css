@@ -1,0 +1,13 @@
+.container-img {
+     width: 200px;
+     height: 200px;
+    background-image: url('../../../../images/ropa02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 280px;
+    height: 330px;
+   
+}
