@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState, useHistory} from 'react';
 //bootstrap4
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const TheNav = () => {
+  //Estado del Login
+  const [login,setLogin] = useState(false);
+
+ 
+
+
+
 return(
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,7 +30,18 @@ return(
           <a class="nav-link" href="#">CONTACTO</a>
         </li>
       </ul>
+    { /*render condicional segun el estado del LOGIN*/}
+        <div>
+          { login ? <p className="Login">Tu ya estas Subscript@</p> : 
+          
+          
+            <p className="NoLogin">No estas Subscript@ <a  href="#">Subscribirse Ahora</a> </p> 
+          
+          }
+        </div>
     </div>
+    
+
   </div>
 </nav>
     </div>

@@ -32,3 +32,16 @@
 h2 {
   color: burlywood;
 }
+
+
+.NoLogin {
+ 
+  color: red;
+  margin: auto;
+}
+
+
+.Login {
+ margin: auto;
+  color: green;
+}
