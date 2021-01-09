@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 spy={true}
                 smooth={true}
                 //ES LA ALTURA DESDE EL NAV
-                offset={-80}
+                offset={300}
                 //ES EL MOVIMIENTO CON QUE SE DESPLAZA
                 duration={500}
               >

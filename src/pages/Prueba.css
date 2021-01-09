@@ -1,15 +1,12 @@
 .nav {
   background-color: var(--off-white);
-  position: sticky;
+  position: fixed;
   top: 0px;
   width: 100%;
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
-
-
-
 
 
 .nav .nav-content {
@@ -33,15 +30,12 @@
   cursor: pointer;
 }
 
-
-.section-dark {
-  background: #333;
-  color: white;
-  height: 700px;
+.active {
+  color: aliceblue;
+  text-decoration: none;
 }
 
-.section-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+.active:hover {
+  color: #333;
+  text-decoration: none;
 }

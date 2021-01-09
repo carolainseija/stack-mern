@@ -6,19 +6,15 @@
 
 
 
-.container-nav {
-  margin: 0px;
-  padding: 0px;
-  background-color: aliceblue;
-}
 
 .container-root {
   background-image: url("../images/baner01.PNG");
-  min-height: 100vh;
+ height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 80px;
 }
 
 .container-btn {

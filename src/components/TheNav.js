@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import '../components/theNav.css'
+
 
 export default class TheNav extends Component {
 
@@ -12,7 +12,7 @@ export default class TheNav extends Component {
 
   render()  {
     return (
-      <nav className="nav" id="navbar">
+      <nav className="nav bg-warning " id="navbar">
         <div className="nav-content">
          
           <ul className="nav-items">
