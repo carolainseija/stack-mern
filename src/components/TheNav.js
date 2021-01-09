@@ -81,13 +81,8 @@ export default class TheNav extends Component {
               </Link>
             </li>
           </ul>
-        </div>
-
-       
-        
+        </div>    
       </nav>
-      
-
     );
   }
 }
