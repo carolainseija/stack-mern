@@ -5,6 +5,7 @@ import "./style.css";
 import { useHistory } from "react-router-dom";
 import { Summer } from "../components/catalogue/Summer/summer";
 import { Footer } from "../components/footer/Footer";
+import { Marcas } from "../components/marcas/Marcas";
 
 export const Login = () => {
   //Estado del Login
@@ -34,9 +35,11 @@ export const Login = () => {
         <h2 className="text-center fs-1 mt-5 mb-5">CATALOGO 2021!!</h2>
         <Summer />
       </div>
-      <div id="section3">
-        <h1>section para reparar</h1>
-        <h1>section 3</h1>
+      <div id="sale">
+      </div>
+      <div id="marcas">
+
+       <Marcas />
       </div>
 
       <div id="contacto">

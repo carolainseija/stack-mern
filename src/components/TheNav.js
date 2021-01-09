@@ -46,26 +46,26 @@ export default class TheNav extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section3"
+                to="sale"
                 //LE DA EL COLOR AZUL A LA LETRA
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                SALE
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section4"
+                to="marcas"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
-                Section 4
+                Marcas
               </Link>
             </li>
             <li className="nav-item">
