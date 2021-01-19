@@ -54,3 +54,9 @@ h2 {
 .input:hover {
   background-color: rgb(194, 208, 208);
 }
+
+.onchange {
+  width: 300px;
+  height: 100px;
+  background-color: burlywood;
+}
