@@ -9,14 +9,18 @@ export const Main = () => {
 
 
 const handleInputChange = (e)=> {
+  e.preventDefault();
   setInputValue(e.target.value);
   console.log(inputValue)
   
 }
 
 const keyPress= (e)=> {
+ 
   if (e.key === "Enter") {
     console.log("presiono enter")
+
+    
    return true;
 
   } else {
