@@ -41,3 +41,16 @@ h2 {
  margin: auto;
   color: green;
 }
+
+
+
+/*MAIN*/
+
+.input {
+  width: 300px;
+  height: 70px;
+  background-color: aqua;
+}
+.input:hover {
+  background-color: rgb(194, 208, 208);
+}
